@@ -1,25 +1,21 @@
 var creaFormUsu = function() {
-    $("<section> <br/> <mark>Iniciar Sesion </mark>").appendTo("body");
-    $("<form method='Post'> <br/>").appendTo("body");
-    $("<label>Usuario: </label> ").appendTo("body");
-    $("<input type='text' name='User'/> <br/>").appendTo("body");
-    $("<label>Contraseña: </label>").appendTo("body");
-    $("<input type='text' name='Password'/> <br/>").appendTo("body");
-    $("<input type='submit' value='Iniciar'/>").appendTo("body");
-    $("</form>").appendTo("body");
-    $("</section>");
+    $("<section id='sec1'> <br/> <mark>Iniciar</mark> </section>").appendTo("body");
+    $("<form id='form1' method='Post' action='../Programs/PHP/Home.php'> <br/> </form> ").appendTo("#sec1");
+    $("<label>Usuario:  </label> ").appendTo("#form1");
+    $("<input type='text' name='User'/> <br/>").appendTo("#form1");
+    $("<label>Contraseña: </label>").appendTo("#form1");
+    $("<input type='text' name='Password'/> <br/>").appendTo("#form1");
+    $("<input type='submit' value='Iniciar Sesion'/>").appendTo("#form1");
     $("#iniciarSesion").remove();
 }
 var creaFormNew = function() {
-    $("<section> <br/> <mark>Registrar Usuario</mark>").appendTo("body");
-    $("<form method='Post'> <br/>").appendTo("body");
-    $("<label>Nombre de Usuario:  </label> ").appendTo("body");
-    $("<input type='text' name='UserR'/> <br/>").appendTo("body");
-    $("<label>Ingrese su Contraseña </label>").appendTo("body");
-    $("<input type='text' name='PasswordR'/> <br/>").appendTo("body");
-    $("<input type='submit' value='Registrar'/>").appendTo("body");
-    $("</form>").appendTo("body");
-    $("</section>");
+    $("<section id='sec2'> <br/> <mark>Registrar Usuario</mark> </section>").appendTo("body");
+    $("<form id='form2' method='Post' action='../Programs/PHP/Home.php'> <br/> </form> ").appendTo("#sec2");
+    $("<label>Nombre de Usuario:  </label> ").appendTo("#form2");
+    $("<input type='text' name='UserR'/> Solo se permiten caracteres y números y menos de 20 caracteres<br/>").appendTo("#form2");
+    $("<label>Ingrese su Contraseña: </label>").appendTo("#form2");
+    $("<input type='text' name='PasswordR'/> Solo menos de 20 caracteres <br/>").appendTo("#form2");
+    $("<input type='submit' value='Registrar'/>").appendTo("#form2");
     $("#registrar").remove();
 }
 var crearInput = $("#iniciarSesion");
