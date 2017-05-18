@@ -2,7 +2,7 @@
           <html>
             <head>
               <meta charset="UTF-8"/>
-              <script type="text/javascript" src='..\Resources\JavaScript\jquery-3.2.1.min.js' ></script>
+              <title>Inicio</title>
             </head>
             <body>
                 <h1>Seguridad</h1>
@@ -19,18 +19,17 @@
                     </form>
                   </aside>
                   <aside>
-                    <form>
+                    <form action="..\Programs\PHP\HomeRegistro.php" method="POST">
                         <br/>
                         <label>Registrar Usuario</label> <br/>
                         <label>Nombre del Usuario: </label>
                         <input type="text" name="UserR" /> <br/>
                         <label>Ingrese su Contraseña: </label>
                         <input type="password" name="PasswordR"/>
-                        <input type="submit" value="Iniciar"/>   
+                        <input type="submit" value="Registrar"/>   
                     </form>
                   </aside>
                   <small>El usuario y la contraseña solo aceptan letras, numeros y un maximo de 20 caracteres</small>
                 </section>
-                <script type="text/javascript" src="..\Resources\JavaScript\ini.js"></script>
             </body>
           </html>
