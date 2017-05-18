@@ -1,0 +1,2 @@
+Primero crear la base de datos, puesto que el sition no deja acceder sin ella,el respaldo.sql contiene los datos 
+necesarios que solo son Usuario y contraseña, ejecutar desde mysql con source para no tener mayores problemas
