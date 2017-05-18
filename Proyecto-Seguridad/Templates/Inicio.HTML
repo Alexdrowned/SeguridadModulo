@@ -7,10 +7,30 @@
             <body>
                 <h1>Seguridad</h1>
                 <h2>Bienvenidos al modulo de Seguridad</h2>
-                <form>
-                    <label id="iniciarSesion">Acceder</label>
-                    <label id="registrar">Registrar</label>
-                </form>
+                <section>
+                  <aside>
+                    <form action="..\Programs\PHP\Home.php" method="POST">
+                        <label>Inicia Sesion</label> <br/>
+                        <label>Usuario: </label>  
+                        <input type="text" name="User" /> <br/>
+                        <label>Contraseña: </label>
+                        <input type="password" name="Password"/>
+                        <input type="submit" value="Iniciar" />  
+                    </form>
+                  </aside>
+                  <aside>
+                    <form>
+                        <br/>
+                        <label>Registrar Usuario</label> <br/>
+                        <label>Nombre del Usuario: </label>
+                        <input type="text" name="UserR" /> <br/>
+                        <label>Ingrese su Contraseña: </label>
+                        <input type="password" name="PasswordR"/>
+                        <input type="submit" value="Iniciar"/>   
+                    </form>
+                  </aside>
+                  <small>El usuario y la contraseña solo aceptan letras, numeros y un maximo de 20 caracteres</small>
+                </section>
                 <script type="text/javascript" src="..\Resources\JavaScript\ini.js"></script>
             </body>
           </html>
