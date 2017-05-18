@@ -3,33 +3,35 @@
             <head>
               <meta charset="UTF-8"/>
               <title>Inicio</title>
+              <link rel="stylesheet" type="text/css" href="../Styles/Principal.css">
             </head>
             <body>
                 <h1>Seguridad</h1>
                 <h2>Bienvenidos al modulo de Seguridad</h2>
-                <section>
-                  <aside>
+                <div>
+                  <article>
                     <form action="..\Programs\PHP\Home.php" method="POST">
                         <label>Inicia Sesion</label> <br/>
-                        <label>Usuario: </label>  
-                        <input type="text" name="User" /> <br/>
-                        <label>Contraseña: </label>
-                        <input type="password" name="Password"/>
+                        <labelUsuario: </label> <br/>
+                        <input type="text" name="User" maxlength="20" size="15" /> <br/>
+                        <label>Contraseña: </label> <br/>
+                        <input type="password" name="Password" maxlength="20" size="15"/> <br/>
                         <input type="submit" value="Iniciar" />  
                     </form>
-                  </aside>
-                  <aside>
-                    <form action="..\Programs\PHP\HomeRegistro.php" method="POST">
+                  </article>
+                    <aside id="derecha">
+                      <form action="..\Programs\PHP\HomeRegistro.php" method="POST">
                         <br/>
                         <label>Registrar Usuario</label> <br/>
-                        <label>Nombre del Usuario: </label>
-                        <input type="text" name="UserR" /> <br/>
-                        <label>Ingrese su Contraseña: </label>
-                        <input type="password" name="PasswordR"/>
+                        <label>Nombre del Usuario: </label> <br/>
+                        <input type="text" name="UserR" maxlength="20" size="15" /> <br/>
+                        <label>Ingrese su Contraseña: </label> <br/>
+                        <input type="password" name="PasswordR" maxlength="20" size="15" /> <br/>
                         <input type="submit" value="Registrar"/>   
-                    </form>
-                  </aside>
-                  <small>El usuario y la contraseña solo aceptan letras, numeros y un maximo de 20 caracteres</small>
-                </section>
+                      </form>
+                      <small>El usuario y la contraseña solo aceptan letras, numeros y un maximo de 20 caracteres</small>                     
+                    </aside>
+                     
+                  </div>
             </body>
           </html>
