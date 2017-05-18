@@ -2,6 +2,9 @@
 	echo "<!Doctype html>
 			<html>
 				<head>
+					<title>Inicio</title>
+					<meta charset='UTF-8'/>
+					 <link rel='stylesheet' type='text/css' href='../../Styles/Inicio.css' />
 				</head>
 				<body>";
 				if(isset($_POST['User']));

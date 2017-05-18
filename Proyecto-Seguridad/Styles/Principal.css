@@ -8,20 +8,19 @@ h1,h2{
 }
 
 aside#derecha{
+	position: relative;
 	width: 15%;
 	background-color: red;
 	float:left;
+	
 }
 
 article{
 	width: 15%;
-	float: left;
+	background-color:blue;
+	left: :300px;
 }
 
 small{
 	float: bottom;
-}
-div{
-	left: 
-	margin-right:auto;
 }
