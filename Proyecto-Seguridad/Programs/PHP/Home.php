@@ -8,10 +8,6 @@
 					$user=$_POST['User'];
 				if(isset($_POST['Password']));
 					$pass=$_POST['Password'];
-				/*if(isset($_POST['UserR']));
-					$userR=$_POST['UserR'];   		//Para otra pagina aqui solo pondre el inicio con una cuenta ya creada
-				if(isset($_POST['PasswordR']));
-					$user=$_POST['PasswordR'];*/
 				$link = mysqli_connect("localhost","root","","datos_pagina_web");
 				if($link == TRUE)
 				if($user!="" && $pass!="" )

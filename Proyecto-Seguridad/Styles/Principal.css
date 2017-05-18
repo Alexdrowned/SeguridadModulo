@@ -1,0 +1,27 @@
+body{
+	background-image:url("../Resources/images/1.jpg");
+	color:white;
+}
+
+h1,h2{
+	text-align:center;
+}
+
+aside#derecha{
+	width: 15%;
+	background-color: red;
+	float:left;
+}
+
+article{
+	width: 15%;
+	float: left;
+}
+
+small{
+	float: bottom;
+}
+div{
+	left: 
+	margin-right:auto;
+}
