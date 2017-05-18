@@ -1,4 +1,5 @@
 <?php
+
 	if(isset($_POST['User']));
 		$user=$_POST['User'];
 	if(isset($_POST['Password']));
@@ -23,5 +24,5 @@
 		else 
 			echo "Usted introdujo caracteres no validos en usuario o contraseña" ;
 	else
-		echo "Usted dejo al menos un campo vacio"
+		echo "Usted dejo al menos un campo vacio";
 ?>
